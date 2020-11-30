@@ -80,19 +80,22 @@ img{
     margin-bottom: 52px;
     color: #ffffff;
 }
-.slider-section input.inputs{
-    border: 1px solid rgba(91, 165, 51, .6);
-    height: 60px;
+.slider-section input.inputs {
+	border: 1px solid rgba(91, 165, 51, .6);
+	height: 60px;
+	width: 378px;
+	float: right;
 }
 .slider-section input.inputs:focus{
     box-shadow: 2.5px 4.33px 40px 0 rgba(64,87,191,0.8);
 }
 .slider-section button.buttons {
-    background-color: #5ba533;
-    font-weight: bold;
-    height: 60px;
-    width: 200px;
-    transition: .4s;
+	background-color: #5ba533;
+	font-weight: bold;
+	height: 60px;
+	width: 200px;
+	transition: .4s;
+	float: left;
 }
 .slider-section button.buttons:hover{
     background-color: #fff;

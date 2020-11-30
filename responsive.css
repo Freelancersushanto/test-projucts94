@@ -1,3 +1,9 @@
+
+@media all and (max-width:1610px ) {
+    .contact-form .centerdiv {
+        margin: 0 64px;
+    }
+}
 @media all and (max-width:1400px ) {
     .feadback-section .user-item {
         width: 50% !important;
@@ -13,11 +19,17 @@
     .footer-top .f-button .button1 {
         width: 36% !important;
     }
+    .contact-form .centerdiv {
+        margin: 0 52px;
+    }
 }
 @media all and (max-width:1200px ) {
     .slider-section {
         padding-top: 180px;
         padding-bottom: 180px;
+    }
+    .slider-section input.inputs {
+        width: 300px;
     }
     .contact-us .container {
         width: 75% !important;
@@ -36,6 +48,12 @@
     }
     .feature2-section h1 {
         margin-top: 0px;
+    }
+    .slider-section input.inputs {
+        width: 250px;
+    }
+    .slider-section button.buttons {
+        width: 166px;
     }
     .theme-header h1 {
         font-size: 39px;
@@ -69,12 +87,24 @@
     }
 }
 @media all and (max-width: 768px) {
-    
+    .slider-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .slider-section h4 {
         font-size: 17px;
     }
     .slider-section h1 {
         font-size: 25px;
+    }
+    .slider-section input.inputs {
+        width: 100%;
+    }
+    .slider-section button.buttons {
+        float: none;
+    }
+    .slider-section button.buttons {
+        width: 75%;
     }
     .feature2-section p {
         margin-bottom: 32px;
@@ -132,6 +162,19 @@
     
 }
 @media all and (max-width: 576px) {
+    .slider-section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .slider-section input.inputs {
+        width: 80%;
+        margin: auto;
+        float: none;
+    }
+    .slider-section button.buttons {
+        width: 50%;
+        margin-top: 20px;
+    }
     .feature2-section p {
         font-size: 15px;
         text-align: center;
@@ -140,11 +183,25 @@
         font-size: 24px;
         text-align: center;
     }
+    .contact-us .container {
+        width: 100% !important;
+        max-width: 100%;
+    }
     .contact-form .centerdiv {
-        margin: 0 36px;
+        margin: 0 45px;
     }
     .footer-top .f-button .button1 {
-        width: 88% !important;
-        margin-bottom: 18px;
+        width: 50% !important;
+        margin: auto;
+    }
+    .footer-top .f-button a {
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+}
+@media all and (max-width: 400px) {
+    .contact-form .centerdiv {
+        margin: 0 28px;
     }
 }
